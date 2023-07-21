@@ -10,7 +10,9 @@ import config
 openai.api_key = config.OPENAI_API_KEY
 
 
-def analyze_translation(original_text, translation):
+def analyze_translation(original_text, translation, previous_context):
+    # print(f'previous_context: {previous_context}')
+
     delimiter0 = "@@@@"
     delimiter1 = "####"
     system_message = f"""
@@ -74,11 +76,14 @@ misinterpreting religious or traditional practices
 applying stereotypes or generalizations from one culture to another
 inadequate handling of greetings and etiquette
 """
-    messages = [
-        {'role':'system', 'content': system_message},
-        {'role':'assistant', 'content': f"{delimiter0}{original_text}{delimiter0}"},
-        {'role':'user', 'content': f"{delimiter1}{translation}{delimiter1}"},
-    ]
+
+    messages = [{'role':'system', 'content': system_message}]
+    for sentence in previous_context:
+        messages.append({'role':'assistant', 'content': sentence})
+    messages.append({'role':'assistant', 'content': f"{delimiter0}{original_text}{delimiter0}"})
+    messages.append({'role':'user', 'content': f"{delimiter1}{translation}{delimiter1}"})
+    # print(f'messages: {messages}')
+
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         temperature=0,
@@ -105,12 +110,14 @@ if __name__ == '__main__':
     ]
 
 
+    previous_context = []
     i = 0
     for pair in pairs:
         print(f'{i+1}\n{pairs[i][0]}\n{pairs[i][1]}')
         result = analyze_translation(
             original_text = pair[0], 
-            translation = pair[1]
-        )
+            translation = pair[1],
+            previous_context=previous_context)
         print(f'{result}\n')
+        previous_context.append(pairs[i][0])
         i += 1
