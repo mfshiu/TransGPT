@@ -202,14 +202,14 @@ if __name__ == '__main__':
     pairs = [
         ("你當時去機場做什麼呢??", "So why do you go to the airport?"),
         ("I went there to pick up a friend who came to Taiwan for a visit.", "我去那裡接機，我有個朋友要來台灣旅遊。"),
-        ("所以你是去了航廈接人嗎?", "So you mean that you go to the terminal to pick up a friend?"),
-        ("Yes, I took a bus to get to the airport. I got there early and I waited for my friend.", "恩對，我是搭車去機場的，然後因為我提早到了，所以我在那邊等待我朋友。"),
-        ("那為什麼後來會發生你拿原告帽子這件事呢?", "So why do you steal the motorcycle cap from the people?"),
-        ("I was waiting for my friend but his flight was delayed. I got bored and went around to kill time.", "因為我太早到了而我朋友的班機又會延遲，所以我覺得很無聊，才做了這件事。"),
-        ("你後來去了哪裡呢?", "So where do you go latter?"),
-        ("I went to the parking lot for motorcycles.", "我去停車場找機車。"),
-        ("然後發生了什麼事呢?", "What happen next?"),
-        ("I saw a cap left on one motorcycle.", "我看到一個機車上有一個安全帽。")
+        # ("所以你是去了航廈接人嗎?", "So you mean that you go to the terminal to pick up a friend?"),
+        # ("Yes, I took a bus to get to the airport. I got there early and I waited for my friend.", "恩對，我是搭車去機場的，然後因為我提早到了，所以我在那邊等待我朋友。"),
+        # ("那為什麼後來會發生你拿原告帽子這件事呢?", "So why do you steal the motorcycle cap from the people?"),
+        # ("I was waiting for my friend but his flight was delayed. I got bored and went around to kill time.", "因為我太早到了而我朋友的班機又會延遲，所以我覺得很無聊，才做了這件事。"),
+        # ("你後來去了哪裡呢?", "So where do you go latter?"),
+        # ("I went to the parking lot for motorcycles.", "我去停車場找機車。"),
+        # ("然後發生了什麼事呢?", "What happen next?"),
+        # ("I saw a cap left on one motorcycle.", "我看到一個機車上有一個安全帽。")
     ]
 
 
