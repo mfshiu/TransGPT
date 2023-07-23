@@ -7,52 +7,14 @@ import openai
 import config
 
 
-def xanalyze_translation(original_text, translation):
-    delimiter0 = "@@@@"
-    delimiter1 = "####"
-    system_message = f"""
-You will receive two sentences, one in the original text and one in the student's translation.
-The original text will be separated by {delimiter0} characters.
-The student's translation will be separated by {delimiter1} characters.
-Please count errors made by this translated sentence with very strict standards, and classfy them into different types.
-Provide your output in json format with key values: the key is type and the value is count.
-
-Error types: "Semantic Conversion", "Grammar and Structure", "Omission or Addition" or "Cultural Transformation".
-    """
-    messages =  [  
-        {'role':'system', 'content': system_message},    
-        {'role':'user', 'content': f"{delimiter0}{original_text}{delimiter0}"},  
-        {'role':'user', 'content': f"{delimiter1}{translation}{delimiter1}"},  
-    ]
-
-    completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        temperature=0,
-        messages=messages
-    )
-    content = completion['choices'][0]['message']['content']
-    print(f'Result:\n{content}')
-
-
-    def _process_result(result):
-        if result:
-            result = result.strip()
-            if result[0] == "(":
-                result = result[1:]
-            if result[-1] == ")":
-                result = result[:-1]
-        print(f"result: {result}")
-        return result
-
-
-# You will receive two sentences, one in the original text and one in the student's translation.
 def analyze_translation(original_text, translation):
     delimiter_original = "@@@@"
     delimiter_translation = "####"
     system_message = f"""
-You will receive two sentences, one in the original text and one in the user's translation.
-The assistant will speak the original text that will be separated by {delimiter0} characters.
-The user's translation will be separated by {delimiter1} characters.
+You are a professional court interpreter. Your goal is to analyze students' translations and provide classifications and reasons for errors.
+You will receive an original text and an user's translation.
+The asistant's original text that will be separated by {delimiter_original} characters.
+The user's translation will be separated by {delimiter_translation} characters.
 Please categorize the translated errors into major and minor categories.
 Please analyze as many groups of categories as possible.
 Provide output in json list format, where the key value of each element: primary (major category), secondary (minor category) and reason (in brief).
@@ -112,8 +74,8 @@ inadequate handling of greetings and etiquette
     """
     messages =  [  
         {'role':'system', 'content': system_message},    
-        {'role':'user', 'content': f"{delimiter0}{original_text}{delimiter0}"},  
-        {'role':'user', 'content': f"{delimiter1}{translation}{delimiter1}"},  
+        {'role':'user', 'content': f"{delimiter_original}{original_text}{delimiter_original}"},  
+        {'role':'user', 'content': f"{delimiter_translation}{translation}{delimiter_translation}"},  
     ]
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
