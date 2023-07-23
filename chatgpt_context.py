@@ -7,48 +7,14 @@ import openai
 import config
 
 
-def xanalyze_translation(original_text, translation):
+openai.api_key = config.OPENAI_API_KEY
+
+
+def analyze_translation(original_text, translation, previous_context):
+    # print(f'previous_context: {previous_context}')
+
     delimiter0 = "@@@@"
     delimiter1 = "####"
-    system_message = f"""
-You will receive two sentences, one in the original text and one in the student's translation.
-The original text will be separated by {delimiter0} characters.
-The student's translation will be separated by {delimiter1} characters.
-Please count errors made by this translated sentence with very strict standards, and classfy them into different types.
-Provide your output in json format with key values: the key is type and the value is count.
-
-Error types: "Semantic Conversion", "Grammar and Structure", "Omission or Addition" or "Cultural Transformation".
-    """
-    messages =  [  
-        {'role':'system', 'content': system_message},    
-        {'role':'user', 'content': f"{delimiter0}{original_text}{delimiter0}"},  
-        {'role':'user', 'content': f"{delimiter1}{translation}{delimiter1}"},  
-    ]
-
-    completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        temperature=0,
-        messages=messages
-    )
-    content = completion['choices'][0]['message']['content']
-    print(f'Result:\n{content}')
-
-
-    def _process_result(result):
-        if result:
-            result = result.strip()
-            if result[0] == "(":
-                result = result[1:]
-            if result[-1] == ")":
-                result = result[:-1]
-        print(f"result: {result}")
-        return result
-
-
-# You will receive two sentences, one in the original text and one in the student's translation.
-def analyze_translation(original_text, translation):
-    delimiter_original = "@@@@"
-    delimiter_translation = "####"
     system_message = f"""
 You will receive two sentences, one in the original text and one in the user's translation.
 The assistant will speak the original text that will be separated by {delimiter0} characters.
@@ -109,12 +75,15 @@ misunderstanding historical or social context
 misinterpreting religious or traditional practices
 applying stereotypes or generalizations from one culture to another
 inadequate handling of greetings and etiquette
-    """
-    messages =  [  
-        {'role':'system', 'content': system_message},    
-        {'role':'user', 'content': f"{delimiter0}{original_text}{delimiter0}"},  
-        {'role':'user', 'content': f"{delimiter1}{translation}{delimiter1}"},  
-    ]
+"""
+
+    messages = [{'role':'system', 'content': system_message}]
+    for sentence in previous_context:
+        messages.append({'role':'assistant', 'content': sentence})
+    messages.append({'role':'assistant', 'content': f"{delimiter0}{original_text}{delimiter0}"})
+    messages.append({'role':'user', 'content': f"{delimiter1}{translation}{delimiter1}"})
+    # print(f'messages: {messages}')
+
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         temperature=0,
@@ -141,12 +110,14 @@ if __name__ == '__main__':
     ]
 
 
+    previous_context = []
     i = 0
     for pair in pairs:
         print(f'{i+1}\n{pairs[i][0]}\n{pairs[i][1]}')
         result = analyze_translation(
             original_text = pair[0], 
-            translation = pair[1]
-        )
+            translation = pair[1],
+            previous_context=previous_context)
         print(f'{result}\n')
+        previous_context.append(pairs[i][0])
         i += 1

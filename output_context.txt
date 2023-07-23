@@ -1,0 +1,103 @@
+1
+你當時去機場做什麼呢??
+So why do you go to the airport?
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation does not accurately convey the meaning of the original sentence."
+  }
+]
+
+2
+I went there to pick up a friend who came to Taiwan for a visit.
+我去那裡接機，我有個朋友要來台灣旅遊。
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation changes the meaning of the sentence. The original sentence states that the user went to the airport to pick up a friend, while the translated sentence states that the user went to the airport to pick someone up."
+  }
+]
+
+3
+所以你是去了航廈接人嗎?
+So you mean that you go to the terminal to pick up a friend?
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation does not accurately convey the meaning of the original sentence."
+  }
+]
+
+4
+Yes, I took a bus to get to the airport. I got there early and I waited for my friend.
+恩對，我是搭車去機場的，然後因為我提早到了，所以我在那邊等待我朋友。
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation does not accurately convey the original meaning."
+  }
+]
+
+5
+那為什麼後來會發生你拿原告帽子這件事呢?
+So why do you steal the motorcycle cap from the people?
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation misinterprets the original sentence."
+  }
+]
+
+6
+I was waiting for my friend but his flight was delayed. I got bored and went around to kill time.
+因為我太早到了而我朋友的班機又會延遲，所以我覺得很無聊，才做了這件事。
+[
+  {
+    "primary": "omission or addition",
+    "secondary": "omitting important details",
+    "reason": "The user's translation omits the reason for the assistant's action of taking the plaintiff's hat."
+  }
+]
+
+7
+你後來去了哪裡呢?
+So where do you go latter?
+{"primary": "omission or addition", "secondary": "omitting important details", "reason": "The user omitted the information about where they went after getting bored at the airport."}
+
+8
+I went to the parking lot for motorcycles.
+我去停車場找機車。
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation does not accurately convey the meaning of the original sentence."
+  },
+  {
+    "primary": "omission or addition",
+    "secondary": "omitting important details",
+    "reason": "The user's translation omits the important detail that the assistant was specifically looking for motorcycles in the parking lot."
+  }
+]
+
+9
+然後發生了什麼事呢?
+'What happen next'
+I saw a hat on the ground and I picked it up, thinking it belonged to my friend. But it turned out to be someone else's hat.
+
+10
+I saw a cap left on one motorcycle.
+我看到一個機車上有一個安全帽。
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation does not accurately convey the original meaning. The original sentence states that the assistant saw a cap left on a motorcycle, while the user's translation states that they saw a safety helmet on a motorcycle."
+  }
+]
+
