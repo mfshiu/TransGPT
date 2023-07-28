@@ -1,0 +1,125 @@
+1
+你當時去機場做什麼呢??
+So why do you go to the airport?
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation does not accurately convey the meaning of the original text."
+  }
+]
+
+2
+I went there to pick up a friend who came to Taiwan for a visit.
+我去那裡接機，我有個朋友要來台灣旅遊。
+[
+  {
+    "primary": "grammar and structure",
+    "secondary": "word order errors",
+    "reason": "The word order in the translation is incorrect. It should be '我有個朋友要來台灣旅遊，我去那裡接機。'"
+  }
+]
+
+3
+所以你是去了航廈接人嗎?
+So you mean that you go to the terminal to pick up a friend?
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation does not accurately convey the meaning of the original text."
+  }
+]
+
+4
+Yes, I took a bus to get to the airport. I got there early and I waited for my friend.
+恩對，我是搭車去機場的，然後因為我提早到了，所以我在那邊等待我朋友。
+[
+  {
+    "primary": "grammar and structure",
+    "secondary": "word order errors",
+    "reason": "The word order in the translation is incorrect. The correct word order should be '我是搭車去機場的' instead of '恩對，我是搭車去機場的'."
+  }
+]
+
+5
+那為什麼後來會發生你拿原告帽子這件事呢?
+So why do you steal the motorcycle cap from the people?
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user's translation misinterprets the original text, changing the meaning from 'why did it happen' to 'why do you steal'"
+  },
+  {
+    "primary": "grammar and structure",
+    "secondary": "word order errors",
+    "reason": "The user's translation has incorrect word order, placing 'the motorcycle cap' before 'steal'"
+  }
+]
+
+6
+I was waiting for my friend but his flight was delayed. I got bored and went around to kill time.
+因為我太早到了而我朋友的班機又會延遲，所以我覺得很無聊，才做了這件事。
+[
+  {
+    "primary": "grammar and structure",
+    "secondary": "word order errors",
+    "reason": "The word order in the sentence is incorrect. The correct word order should be '因為我朋友的班機會延遲而我太早到了，所以我覺得很無聊，才做了這件事。'"
+  },
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The meaning of 'waiting for my friend' is not accurately conveyed in the translation. It should be translated as '等待我的朋友' instead of '因為我太早到了'."
+  },
+  {
+    "primary": "omission or addition",
+    "secondary": "omitting important details",
+    "reason": "The translation omits the information that the speaker went around to kill time. This detail is important for understanding the context of the sentence."
+  }
+]
+
+7
+你後來去了哪裡呢?
+So where do you go latter?
+[
+  {
+    "primary": "grammar and structure",
+    "secondary": "word order errors",
+    "reason": "The word order in the question is incorrect."
+  }
+]
+
+8
+I went to the parking lot for motorcycles.
+我去停車場找機車。
+[
+  {
+    "primary": "grammar and structure",
+    "secondary": "word order errors",
+    "reason": "The word order is incorrect. It should be '我去機車停車場。'"
+  }
+]
+
+9
+然後發生了什麼事呢?
+'What happen next'
+[
+  {
+    "primary": "grammar and structure",
+    "secondary": "word order errors",
+    "reason": "The word order in the translation is incorrect."
+  }
+]
+
+10
+I saw a cap left on one motorcycle.
+我看到一個機車上有一個安全帽。
+[
+  {
+    "primary": "semantic conversion",
+    "secondary": "mismatched meaning",
+    "reason": "The user translated 'cap' as '安全帽' which means 'safety helmet' instead of '帽子' which means 'hat'."
+  }
+]
+

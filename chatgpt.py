@@ -5,15 +5,73 @@ import threading
 import openai
 
 import config
+import helper
 
 
-def analyze_translation(original_text, translation):
+openai.api_key = config.OPENAI_API_KEY
+_delimiter_original = "@@@@"
+_delimiter_translation = "####"
+
+
+def _get_system_message():
+    classfication = helper.read_classfication('classfication.txt')
+    class_text = ""
+    for major in classfication:
+        class_text += f'minor categories of {major}:\n'
+        for minor in classfication[major]:
+            class_text += f'{minor}:\n'
+        class_text += '\n'
+    system_message = f"""
+You are a professional court interpreter. Your goal is to analyze students' translations and provide classifications and reasons for errors.
+You will receive an original text and a user's translation.
+The assistant's original text that will be separated by {_delimiter_original} characters.
+The user's translation will be separated by {_delimiter_translation} characters.
+Please categorize the translated errors into major and minor categories.
+Please analyze as many groups of categories as possible.
+Provide output in json list format, where the key value of each element: primary (major category), secondary (minor category) and reason (in brief).
+Show an empty list if no obvious errors are found.
+
+Primary (main category): semantic conversion, grammar and structure, omission or addition, or cultural transformation categories.
+
+{class_text}"""
+    return system_message
+_system_message = _get_system_message()
+
+
+def analyze_translation(original_text, translation, try_count=0):
+    if try_count > 0:
+        print(f"Try {try_count}")
+    if try_count > 9:
+        return ""
+    
+    messages =  [  
+        {'role':'system', 'content': _system_message},    
+        {'role':'user', 'content': f"{_delimiter_original}{original_text}{_delimiter_original}"},  
+        {'role':'user', 'content': f"{_delimiter_translation}{translation}{_delimiter_translation}"},  
+    ]
+
+    try:
+        completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            temperature=0,
+            messages=messages
+        )
+        content = completion['choices'][0]['message']['content']
+    except Exception as ex:
+        content = ""
+        print("Error: " + str(ex).split('\n')[0])
+        content = analyze_translation(original_text, translation, try_count+1)
+
+    return content
+
+
+def xanalyze_translation(original_text, translation):
     delimiter_original = "@@@@"
     delimiter_translation = "####"
     system_message = f"""
 You are a professional court interpreter. Your goal is to analyze students' translations and provide classifications and reasons for errors.
-You will receive an original text and an user's translation.
-The asistant's original text that will be separated by {delimiter_original} characters.
+You will receive an original text and a user's translation.
+The assistant's original text that will be separated by {delimiter_original} characters.
 The user's translation will be separated by {delimiter_translation} characters.
 Please categorize the translated errors into major and minor categories.
 Please analyze as many groups of categories as possible.
@@ -29,7 +87,6 @@ incorrect word choice
 mismatched meaning
 omission of details
 addition of unnecessary content
-inappropriate cultural transformation
 
 
 minor categories of grammar and structure:
@@ -87,6 +144,9 @@ inadequate handling of greetings and etiquette
 
 
 if __name__ == '__main__':
+    print(f'system_message: {_system_message}')
+
+if __name__ == 'x__main__':
     original_text = "那為什麼陳小姐會說你偷了她的傘呢? "
     translation = "Then why did Ms. Chen accuse that you stole her umbrella?"
     pairs = [

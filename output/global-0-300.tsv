@@ -1,0 +1,317 @@
+今為偷竊案件偵字1425號偵查程序
+omission or addition	omitting important details	The user omitted the word 'in' before 'the investigatory procedure'.
+omission or addition	omitting important details	The user omitted the word 'of' before 'the theft case'.
+omission or addition	omitting important details	The user omitted the word 'the' before 'case number 1425'.
+
+今為檢察署偵字1425號偷竊案件為通譯，謹當為公正誠實之譯述，謹此此結。
+
+被告姓名
+omission or addition	omitting important details	The user omitted the word 'defendant' in their translation.
+
+Paul Anderson
+grammar and structure	subject-verb agreement errors	The verb '是' (to be) should agree with the subject 'Paul Anderson'.
+
+護照號碼
+omission or addition	omitting important details	The user omitted the original text '護照號碼' which means 'passport number'.
+
+AC44432189
+
+通訊地址
+omission or addition	omitting important details	The user omitted the translation of the original text.
+
+No. 52, Ho-ping East Road, Section 1, Taipei City
+omission or addition	omitting important details	The user omitted the word 'No.' in the address.
+semantic conversion	incorrect word choice	The user used the word '號' instead of 'Road' to translate 'Road'.
+
+告知權利義務
+omission or addition	omitting important details	The user omitted the specific content of the rights and obligations.
+
+1.你有權保持緘默，毋需違背意志做任何陳述。
+grammar and structure	word order errors	The word order in the translation is incorrect.
+
+2.你有權雇用法定辯護人，若你為低收入戶、中低收入戶、原住民或其他符合法律規定者，得請求法律服務。
+grammar and structure	word order errors	The word order in the sentence is incorrect.
+
+3.你有權請法院調查任何對你有利的證據。
+grammar and structure	word order errors	The word order in the translation is incorrect. The correct word order should be 'you have the right to ask the court to investigate any evidence'.
+
+被告是否了解以上權利？
+
+Yes, I understand.
+
+原告姓名
+omission or addition	omitting important details	The user omitted the translation of the plaintiff's name.
+
+陳小倩
+
+身分證字號
+omission or addition	omitting important details	The user omitted the word 'ID' in the translation.
+
+H228489212
+
+通訊地址
+omission or addition	omitting important details	The user omitted the translation of the original text.
+
+新北市三峽區學府路132號5樓之4
+
+Paul Anderson你因為在103年05月27日造訪新北市鶯歌博物館時，拿了原告陳小倩的雨傘，因為此行為發生在未告知原告的情況下，當你還傘時，當場被陳小倩人、傘具獲，因此她提出告訴。今天的程序主要是要了解那天發生了什麼事情，請就我提出的問題，加以回答，以便檢方了解當天的事發經過，了解嗎? 待會我也會詢問原告，聽聽她陳述當天發生的經過，雙方明白程序嗎?
+semantic conversion	mismatched meaning	The user mistranslated the date of the incident as May 22nd, 2014 instead of May 27th, 2014.
+omission or addition	omitting important details	The user omitted the fact that the defendant took the umbrella without asking for permission from the plaintiff.
+omission or addition	omitting important details	The user omitted the location of the incident, which is Yingge Ceramics Museum.
+omission or addition	omitting important details	The user did not mention that the plaintiff filed the case as a result of the incident.
+grammar and structure	subject-verb agreement errors	The user used the incorrect verb form 'found' instead of 'found out' in the sentence 'When the defendant returned the umbrella, Ms.陳小倩, found that behavior right on the scene.'
+omission or addition	omitting important details	The user did not include the request for the defendant to answer the questions regarding the incident.
+
+I understand.
+
+我了解。
+
+那請問被告103年5月27日下午4點15分時，你人在哪裡?
+grammar and structure	word order errors	The word order of the sentence is incorrect.
+
+I was at Yingge Ceramics Museum.
+
+當時你有看到原告陳小姐嗎?
+grammar and structure	word order errors	The word order in the question is incorrect. It should be 'Did you see Ms. Chen, the plaintiff, on that day?'
+
+Yes, when I put the umbrella back to the rack, Ms. Chen was there.
+grammar and structure	word order errors	The word order in the translation is incorrect. It should be '我看到陳小姐' instead of '有看到陳小姐'.
+
+當時發生了什麼事呢?
+grammar and structure	word order errors	The word order in the question is incorrect.
+
+She yelled at me, saying that I stole her umbrella. I tried to tell her that I must have taken the wrong one. I did not steal her umbrella. I tried to apologize to her, but she wouldn’t listen.
+grammar and structure	word order errors	The word order in the sentence '我只是拿到錯的傘' is incorrect. It should be '我只是拿錯了傘'.
+
+那為什麼陳小姐會說你偷了她的傘呢?
+semantic conversion	word order errors	The word order in the translation is incorrect.
+
+On that day, some classmates and I visited the Museum for an exhibition. When we finished viewing the exhibited items, two of my classmates said they were hungry. Therefore, we decided to go out and buy some food, perhaps even try to find a place for dinner. When I was leaving the museum, I realized it was raining. I didn’t bring an umbrella, so I planned to borrow one from my classmates. Because I am a bit tall and big, I decided to borrow the umbrella of Adam, a friend of mine. His body shape is similar to mine. Then I took one umbrella from the rack. I went to buy some bread with my professor and two other friends. When we came back, that’s when Ms. Chen started to yell at me.
+grammar and structure	word order errors	The word order in the sentence '所以我們決定去外面買東西吃' is incorrect. It should be '所以我們決定去外面吃東西'.
+grammar and structure	subject-verb agreement errors	The verb '看' should agree with the subject '我們', so it should be '我們看完展覽' instead of '我看完展覽'.
+grammar and structure	tense errors	The verb '跟' should be in the past tense to match the context, so it should be '跟我借' instead of '跟我ㄧ個同學借'.
+grammar and structure	pronoun errors	The pronoun '我' should be repeated before '跟我ㄧ個同學借把傘' to clarify the subject, so it should be '我跟我ㄧ個同學借把傘' instead of '跟我ㄧ個同學借把傘'.
+grammar and structure	missing or misplaced punctuation	There should be a comma after '我們回來的時候' to separate the clauses.
+
+你的意思是說，你當時借的傘是你同學亞當的?
+semantic conversion	mismatched meaning	The user mistakenly translated '同學' as 'actually'.
+
+Yes, I thought the umbrella I took belonged to Adam. I didn’t intend to steal anyone’s umbrella.
+grammar and structure	word order errors	The word order in the sentence is incorrect. The verb 'thought' should come after the subject 'I'.
+
+那你記得你那天拿的那把傘是什麼顏色、什麼形狀嗎?
+grammar and structure	word order errors	The word order of the question is incorrect.
+
+I only remember the color. It was blue, not a brand new one.
+semantic conversion	omission of details	The user omitted the mention of the umbrella in their translation.
+grammar and structure	word order errors	The user placed the phrase '不是全新的' (not a brand new one) before the color '藍色的' (blue), which is incorrect. The correct word order should be '藍色的不是全新的' (blue, not a brand new one).
+
+那支傘整隻都是藍色的嗎?
+semantic conversion	mismatched meaning	The user's translation does not accurately convey the meaning of the original text.
+grammar and structure	word order errors	The user's translation has a word order error.
+
+In my recollection, the color was blue.
+semantic conversion	mismatched meaning	The user translated 'recollection' as '印象' which means 'impression' instead of '回憶' which means 'memory'.
+
+有人可以證明你剛剛講的話嗎?
+semantic conversion	mismatched meaning	The user's translation does not accurately convey the meaning of the original text.
+
+Yes, when I came out from the museum, my professor and other two classmates were with me. My professor even offered to lend me her umbrella; since her umbrella was quite small, I didn’t take it. I didn’t want her to get wet. The other two classmates were there too.
+grammar and structure	word order errors	The word order in the sentence '我是跟老師還有兩位同學一起的' is incorrect. It should be '我跟老師還有兩位同學一起出博物館的時候'.
+grammar and structure	pronoun errors	The pronoun '我的' (my) is unnecessary in the sentence '我的老師也有提議要借我的傘'. It should be '老師也有提議要借傘'.
+omission or addition	omitting important details	The user's translation omits the information that the professor offered to lend the umbrella. It should be included in the translation.
+omission or addition	omitting important details	The user's translation omits the information that the professor's umbrella was small. It should be included in the translation.
+omission or addition	omitting important details	The user's translation omits the reason for not taking the professor's umbrella, which is to prevent her from getting wet. It should be included in the translation.
+omission or addition	omitting important details	The user's translation omits the information that there were two other classmates present. It should be included in the translation.
+
+那他們三位應該能夠到庭幫你佐證剛剛所說的話，對吧?
+grammar and structure	word order errors	The word order in the translation is incorrect.
+
+I guess so.
+
+那你還有什麼希望檢方幫你調查的證據呢?
+
+I tried to return Ms. Chen her umbrella but she wouldn’t take it. I tried to apologize to her but she wouldn’t listen to me, either. Perhaps my professor and my friends will be able to prove what I have said today is the truth.
+grammar and structure	word order errors	The word order in the sentence '我也試圖想要道歉' is incorrect. It should be '我也試圖想要道歉'.
+grammar and structure	subject-verb agreement errors	The verb '拿' should agree with the subject '她', so it should be '她不想拿'.
+grammar and structure	tense errors	The verb '證實' should be in the future tense to match the context, so it should be '也許可以證實'.
+
+好的，那我現在要詢問陳小姐，當天案發的經過。陳小姐，能否請你講述一下當天發生了什麼事。
+
+我那天去鶯歌博物館，當時在下雨，我在進館時，把雨傘放在外面的傘架上，可是當我出來時，傘不見了，我請館方人員幫我找，後來就看到這個外國人把傘拿回來放，當我發現他拿的傘就是我失竊的傘時，我很生氣，有質問他為何要拿我的傘? 難道不知道外面在下雨嗎?怎麼會有人那麼沒有公德心呢?
+omission or addition	omitting important details	The user omitted the fact that the umbrella was stolen.
+grammar and structure	subject-verb agreement errors	The user used the incorrect verb form 'was' instead of 'were' to agree with the plural subject 'staff'.
+semantic conversion	mismatched meaning	The user translated '失竊' as 'missing' instead of 'stolen'.
+inappropriate cultural transformation	not conveying the appropriate level of formality or politeness	The user used a direct and confrontational tone in questioning the foreigner's actions, which may not be culturally appropriate.
+
+請問你那天帶的傘是什麼顏色的? 有什麼特徵?
+grammar and structure	word order errors	The word order of the question is incorrect.
+
+我當天帶的傘是藍色的，應該是深藍色的。
+semantic conversion	mismatched meaning	The user translated '深藍色' as 'dark blue' instead of 'navy blue'.
+
+提示偵卷(1)第5頁的照片，請問照片中的傘是妳的嗎?
+omission or addition	omitting important details	The user omitted the mention of the photo in the translation.
+grammar and structure	word order errors	The user changed the word order of the sentence.
+
+對，就是這把傘。
+
+照片中這把傘是很普通的那種，就是7-11可以買到的那種，妳怎麼確定那把傘是妳的呢?
+semantic conversion	mismatched meaning	The user's translation does not accurately convey the meaning of the original text.
+
+的確，我的傘當初就是在7-11買的，但是我的傘在釦子那邊有點損壞，扣不太起來，這點我當初報案時有特別跟警察解釋過，外國人後來放回傘架上的那把，也有這個特徵，由此可知，是我的傘。
+grammar and structure	word order errors	Incorrect word order in the sentence: 'In terms of this, I have especially talked about it when I made my record at the police station.' The correct word order should be: 'I have especially talked about this when I made my record at the police station.'
+grammar and structure	subject-verb agreement errors	Subject-verb agreement error in the sentence: 'And the umbrella, which the foreigner put back to the umbrella rack, also had this feature; therefore, it can be proven that the umbrella is mine.' The correct verb form should be 'can be proven' instead of 'can be prove'.
+
+那請問你，如果對方有悔意，也願意道歉，妳有沒有可能原諒他呢? 畢竟失竊的只是一把傘。
+semantic conversion	mismatched meaning	The user translated '失竊的只是一把傘' as 'what you missed was an umbrella', which does not accurately convey the meaning of the original text. The correct translation should be 'what was stolen was just an umbrella'.
+
+什麼叫做「只是」一把傘? 這是一個人有沒有基本道德的問題，如果當天他沒有拿來還，難道要我淋大雨回家嗎? 我不想原諒他。
+semantic conversion	mismatched meaning	The user's translation does not accurately convey the meaning of the original text.
+
+我了解了，那麼我們會發傳票給被告剛剛提到的三位人士，請他們到庭說明當天事發的經過。下次庭訊定為103年6月19日下午3點，被告和三位證人都應到庭，被告，這個日期你可以嗎?
+grammar and structure	subject-verb agreement errors	incorrect verb form
+omission or addition	omitting important details	leaving out critical context
+
+Yes, I will be here.
+grammar and structure	word order errors	The word order in the translation is incorrect. The correct word order should be '我會到庭' instead of '我會到庭。'
+
+原告陳小姐，下次的庭你可以到、也可以不到，基本上我們要問的是當天跟被告在一起的同學及老師，但如果你要來，也是可以的。
+omission or addition	omitting important details	The user omitted the mention of the plaintiff's presence on the next court date.
+
+不用了，這樣我還要請假。
+
+我明白了，那今天的庭訊到此為止，請在簽完筆錄後離席。
+omission or addition	omitting important details	The user omitted the instruction for the interpreter to leave after signing the records.
+
+今為偷竊案件偵字1425號偵查程序
+omission or addition	omitting important details	The user omitted the word 'in' before 'the investigatory procedure'.
+grammar and structure	word order errors	The user placed the word 'today' at the beginning of the sentence instead of after the verb 'are'.
+
+今為檢察署偵字1425號偷竊案件為通譯，謹當為公正誠實之譯述，謹此此結。
+
+被告姓名
+omission or addition	omitting important details	The user omitted the request for the defendant's name in the translation.
+
+Paul Anderson
+semantic conversion	incorrect word choice	The user translated 'Paul Anderson' as '安德森 侯' which is not an accurate translation.
+
+護照號碼
+omission or addition	omitting important details	The user omitted the original text '護照號碼' which means 'passport number'.
+
+AC44432189
+
+通訊地址
+omission or addition	omitting important details	The user omitted the request for the mailing address in their translation.
+
+No. 52, Ho-ping East Road, Section 1, Taipei City
+omission or addition	omitting important details	The user omitted the word 'No.' in the translation.
+
+告知權利義務
+grammar and structure	word order errors	The word order in the translation is incorrect.
+
+1.你有權保持緘默，毋需違背意志做任何陳述。
+grammar and structure	word order errors	The word order in the translation is incorrect.
+
+2.你有權雇用法定辯護人，若你為低收入戶、中低收入戶、原住民或其他符合法律規定者，得請求法律服務。
+grammar and structure	word order errors	The word order in the sentence is incorrect. The correct word order should be 'If you are a low-income household, a middle-low-income household, an indigenous person, or meet other qualifications set by the law, you may ask for legal assistance.'
+
+3.你有權請法院調查任何對你有利的證據。
+grammar and structure	word order errors	The word order in the translation is incorrect.
+
+被告是否了解以上權利？
+omission or addition	omitting important details	The user omitted the word 'fully' which changes the meaning of the sentence.
+
+Yes, I understand.
+
+原告姓名
+omission or addition	omitting important details	The user omitted the request for the plaintiff's name.
+
+陳小倩
+semantic conversion	incorrect word choice	The user translated '陳小倩' as 'Shiao Chien Chen' instead of 'Chen Xiaoqian'.
+
+身分證字號
+omission or addition	omitting important details	The user omitted the translation of the original text.
+
+H228489212
+
+通訊地址
+omission or addition	omitting important details	The user omitted the request for the mailing address in their translation.
+
+新北市三峽區學府路132號5樓之4
+
+Paul Anderson你因為在103年05月27日造訪新北市鶯歌博物館時，拿了原告陳小倩的雨傘，因為此行為發生在未告知原告的情況下，當你還傘時，當場被陳小倩人、傘具獲，因此她提出告訴。今天的程序主要是要了解那天發生了什麼事情，請就我提出的問題，加以回答，以便檢方了解當天的事發經過，了解嗎? 待會我也會詢問原告，聽聽她陳述當天發生的經過，雙方明白程序嗎?
+semantic conversion	incorrect word choice	拿了原告陳小倩的雨傘 (stole the umbrella of Shiao Chien Chen) should be translated as 借了原告陳小倩的雨傘 (borrowed the umbrella of Shiao Chien Chen)
+omission or addition	omitting important details	因為此行為發生在未告知原告的情況下 (This action wasn’t aware by the plaintiff) should be translated as 因為未經原告同意 (Without the plaintiff's consent)
+
+I understand.
+
+我了解。
+
+那請問被告103年5月27日下午4點15分時，你人在哪裡?
+grammar and structure	word order errors	The word order in the question is incorrect.
+
+I was at Yingge Ceramics Museum.
+cultural transformation	misinterpreting cultural references or symbols	The user translated 'Yingge Ceramics Museum' as '鶯歌陶瓷博物館', which is a direct translation. However, the correct translation should be '鶯歌陶瓷博物館' to accurately convey the cultural reference.
+
+當時你有看到原告陳小姐嗎?
+grammar and structure	subject-verb agreement errors	The verb 'see' should be in the past tense to agree with the past time indicated by 'on that time'.
+
+Yes, when I put the umbrella back to the rack, Ms. Chen was there.
+grammar and structure	word order errors	The word order in the translation is incorrect. The correct word order should be '陳小姐就在那' instead of '就在那陳小姐'.
+
+當時發生了什麼事呢?
+
+She yelled at me, saying that I stole her umbrella. I tried to tell her that I must have taken the wrong one. I did not steal her umbrella. I tried to apologize to her, but she wouldn’t listen.
+grammar and structure	word order errors	The word order in the sentence "他對著我大吼" is incorrect. It should be "他對我大吼".
+semantic conversion	incorrect word choice	The word "他" should be translated as "she" instead of "he" since the original text refers to a female person.
+semantic conversion	mismatched meaning	The phrase "拿錯雨傘了" should be translated as "took the wrong umbrella" instead of "must have taken the wrong one" to accurately convey the meaning.
+omission or addition	omitting important details	The user's translation omits the detail that the person yelled at the speaker. This detail is important for understanding the context of the situation.
+omission or addition	omitting important details	The user's translation omits the detail that the speaker tried to apologize to the person. This detail is important for understanding the speaker's actions.
+omission or addition	omitting important details	The user's translation omits the detail that the person refused to listen to the speaker. This detail is important for understanding the speaker's frustration.
+
+那為什麼陳小姐會說你偷了她的傘呢?
+semantic conversion	mismatched meaning	The user translated '說' as 'say' instead of 'accuse'.
+
+On that day, some classmates and I visited the Museum for an exhibition. When we finished viewing the exhibited items, two of my classmates said they were hungry. Therefore, we decided to go out and buy some food, perhaps even try to find a place for dinner. When I was leaving the museum, I realized it was raining. I didn’t bring an umbrella, so I planned to borrow one from my classmates. Because I am a bit tall and big, I decided to borrow the umbrella of Adam, a friend of mine. His body shape is similar to mine. Then I took one umbrella from the rack. I went to buy some bread with my professor and two other friends. When we came back, that’s when Ms. Chen started to yell at me.
+grammar and structure	word order errors	The word order in the sentence '我和一些同學到博物館裡面參觀一些展覽' is incorrect. The correct word order should be '我和一些同學到博物館裡面參觀一些展覽'.
+grammar and structure	subject-verb agreement errors	The subject-verb agreement is incorrect in the sentence '我發現當時正在下雨'. The correct form should be '我發現當時正在下雨'.
+semantic conversion	incorrect word choice	The word '借' should be translated as 'borrow' instead of '借'. The correct translation should be 'borrow' instead of '借'.
+grammar and structure	word order errors	The word order in the sentence '所以我從傘架拿了一把傘' is incorrect. The correct word order should be '所以我從傘架拿了一把傘'.
+grammar and structure	word order errors	The word order in the sentence '我和我的教授去買了一些麵包，和我的一些同學' is incorrect. The correct word order should be '我和我的教授去買了一些麵包，和我的一些同學'.
+semantic conversion	mismatched meaning	The translation of '陳小姐對我大吼的時候' as 'Ms. Chen started to yell at me' is incorrect. The correct translation should be 'Ms. Chen yelled at me'.
+
+你的意思是說，你當時借的傘是你同學亞當的?
+semantic conversion	mismatched meaning	The user translated '同學' as 'classmate' instead of 'classmate's'
+
+Yes, I thought the umbrella I took belonged to Adam. I didn’t intend to steal anyone’s umbrella.
+grammar and structure	word order errors	The word order in the sentence is incorrect. The correct word order should be '我覺得那是我同學亞當的傘'.
+
+那你記得你那天拿的那把傘是什麼顏色、什麼形狀嗎?
+grammar and structure	word order errors	The word order of the question is incorrect.
+
+I only remember the color. It was blue, not a brand new one.
+semantic conversion	omission of details	The user omitted the information about the item not being brand new.
+
+那支傘整隻都是藍色的嗎?
+semantic conversion	mismatched meaning	The translation does not accurately convey the meaning of the original text.
+
+In my recollection, the color was blue.
+semantic conversion	mismatched meaning	The user translated 'recollection' as '印象' which means 'impression' instead of '回憶' which means 'memory'.
+grammar and structure	word order errors	The user placed the adjective '藍色的' (blue) before the noun '是' (color), resulting in incorrect word order.
+
+有人可以證明你剛剛講的話嗎?
+
+Yes, when I came out from the museum, my professor and other two classmates were with me. My professor even offered to lend me her umbrella; since her umbrella was quite small, I didn’t take it. I didn’t want her to get wet. The other two classmates were there too.
+grammar and structure	word order errors	The word order in the sentence '對當時我走出博物館的時候' is incorrect. The correct word order should be '當時我走出博物館的時候'.
+grammar and structure	subject-verb agreement errors	There is a subject-verb agreement error in the sentence '因為他的傘太小了所以我沒有跟他拿'. The correct form should be '因為他的傘太小了所以我沒有拿'.
+semantic conversion	mismatched meaning	The translation '我不想他被淋濕' does not accurately convey the meaning of 'I didn’t want her to get wet'. The correct translation should be '我不想她被淋濕'.
+
+那他們三位應該能夠到庭幫你佐證剛剛所說的話，對吧?
+grammar and structure	word order errors	The word order in the translation is incorrect.
+
+I guess so.
+
+那你還有什麼希望檢方幫你調查的證據呢?
+omission or addition	omitting important details	The user omitted the word 'court' in their translation, which is an important detail in the original text.
+
