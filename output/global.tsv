@@ -26574,3 +26574,102 @@ The name of the guy who gave me the bag was Kent. I met him in Bangkok and he hi
 是一個肯特的人拿給我的 我在曼谷遇到他然後他就雇用了我 我是一個電腦工程師 他告訴我把這個袋子拿來台灣就好 然後我們是在肯德基見面的
 semantic conversion	incorrect word choice	肯特 (Kent) 被翻譯成肯特 (KFC)
 
+給你高爾夫球袋、要你把它帶入台灣的人是誰？ 你認識他嗎？知道對方的姓名嗎?
+Who is the one who gave you the golf bag to Taiwan? Do you know him? Or his name?
+semantic conversion	omission of details	The user omitted the information about who gave the golf bag to Taiwan.
+
+I only know him as Kent, we met earlier in March 2013.
+我只知道他叫肯特 我們是在2013年3月遇到的
+semantic conversion	mismatched meaning	The user translated 'Kent' as '肯特' instead of '肯特'.
+grammar and structure	word order errors	The user placed the time phrase '在2013年3月' after the verb '遇到' instead of before it.
+
+Kent是對方的姓、還是名？這是他的真名嗎？
+Is Kent the last name or former name? Is Kent his real name?
+semantic conversion	mismatched meaning	The user incorrectly translated the question about the name as a statement about the name.
+
+I think that should be his real name, but I don't know what his last name is.
+我想應該是真名吧 但我不知道他的姓是甚麼
+semantic conversion	mismatched meaning	The user translated 'real name' as '真名' which means 'true name' instead of '真實名字' which means 'real name'.
+
+他是在哪裡把高爾夫球袋給你的？
+Where did he give you the golf bag?
+grammar and structure	word order errors	The word order in the question is incorrect.
+
+He asked me to meet him at a KFC in Bangkok.
+他叫我在曼谷的一家肯德基等他
+semantic conversion	inappropriate cultural transformation	The user translated 'KFC' as '肯德基' which is the Chinese translation of KFC. This is an inappropriate cultural transformation as the original text mentioned 'KFC' in Bangkok, indicating that it should be translated as 'KFC' in the target language.
+
+你為什麼要幫他帶高爾夫球袋到台灣呢？
+Why did you help him to carry the golf bag to Taiwan?
+omission or addition	omitting important details	The user omitted the mention of 'you' as the subject of the sentence.
+grammar and structure	subject-verb agreement errors	The user used 'did' instead of 'do' to match the subject 'you'.
+
+He told me that he would pay me one thousand dollars if I would bring the bag to Taiwan. I just want to make a little money and I think it's an easy job.
+他告訴我他會負我一千美金如果我把高爾夫球袋帶進來台灣 我只是想一些錢然後我想這應該會是很輕鬆的工作
+semantic conversion	incorrect word choice	misinterpretation of 'bag' as '高爾夫球袋' (golf bag) instead of '袋子' (bag)
+omission or addition	omitting important details	omission of the condition 'if I would bring the bag to Taiwan'
+omission or addition	adding unnecessary information	addition of '我只是想一些錢然後我想這應該會是很輕鬆的工作' (I just want to make a little money and I think it's an easy job)
+
+你是說，對方答應要付你1000美金為酬，代價是請你把這個高爾夫球袋帶進台灣，對嗎？
+You mean he will pay you USD 1000 dollar for just carrying the golf bag into Taiwan?
+semantic conversion	mismatched meaning	The user's translation misinterprets the original text by using 'just' and 'for' instead of 'as' and 'in'.
+
+Yes, he told me, I just need to bring this golf bag into Taiwan and nothing else.
+對啊 他只是跟我說我只需要把高爾夫球袋帶進台灣其他甚麼都不用做
+semantic conversion	mismatched meaning	The user's translation does not accurately convey the meaning of the original text. The original text states that the person only needs to bring the golf bag into Taiwan, while the user's translation states that the person does not need to do anything else.
+
+對方有沒有告訴你，當你到了台灣之後，會怎麼樣呢？我的意思是，會有人跟你接洽嗎？
+Did he tell you what you have to do after you take the golf bag into Taiwan? I mean, will there any one get into contact with you?
+semantic conversion	mismatched meaning	The user translated '台灣' (Taiwan) as 'golf bag'.
+grammar and structure	word order errors	The user placed the verb 'take' before the object 'golf bag', resulting in incorrect word order.
+
+Kent told me to stay at a designated hotel and someone would call the cell phone number he had given me.
+肯特跟我說 他叫我待在他指定的旅館就會有人打給我跟我接洽 手機也是他給我的
+grammar and structure	word order errors	The word order in the sentence is incorrect. The correct word order should be '他叫我待在他指定的旅館，就會有人打給我跟我接洽，手機也是他給我的。'
+
+你剛剛回答的那個手機，就是警方在桃園國際機場，扣案的那隻手機嗎？
+So the cellphone you mentioned is the one which is confiscated in Taoyuan International Airport by police?
+semantic conversion	inappropriate cultural transformation	The user incorrectly translated '扣案' as 'confiscated' instead of 'seized'.
+
+Yes, a Nokia phone.
+對啊 那是一隻諾基亞手機
+semantic conversion	mismatched meaning	The user's translation does not accurately convey the meaning of the original text.
+
+提示證物1，請被告確認，這支手機是不是就是你剛剛提及的那隻手機。
+Evidence one, please check this phone is the phone you just said?
+grammar and structure	word order errors	The word order in the question is incorrect.
+
+Yes, this is the cell phone Kent gave me.
+對 這就是肯特給我的那支手機
+semantic conversion	incorrect word choice	The word 'cell phone' is translated as '手機' which is correct, but the name 'Kent' is translated as '肯特' instead of '肯特'.
+
+請問這支手機是你個人的嗎？
+Is that your personal cellphone?
+grammar and structure	subject-verb agreement errors	The verb 'is' should agree with the subject 'cellphone', so it should be 'Is that your personal cellphone?'
+
+No, this is not my own phone. This is the mobile phone Kent gave me. Kent put the SIM card into the mobile phone and gave it to me.
+不是 這不是我的手機 這是肯特給我的 是他把SIM卡放進這支手機的
+grammar and structure	word order errors	The word order in the translation is incorrect. The correct word order should be '這不是我的手機' (This is not my phone).
+grammar and structure	word order errors	The word order in the translation is incorrect. The correct word order should be '是肯特給我的' (It is given to me by Kent).
+omission or addition	omitting important details	The translation omits the information that Kent put the SIM card into the mobile phone.
+
+你是說，這支手機是委託你帶高爾夫球袋的那個人給你的嗎？
+So do  you mean this cellphone is the the one who makes you to carry the golf bag?
+grammar and structure	word order errors	Incorrect word order in the sentence.
+
+Yes, he gave me this phone in KFC.
+對啦 他就是在肯德基的時候一起給我的啊
+semantic conversion	mismatched meaning	The user's translation does not accurately convey the meaning of the original text.
+
+是哪一天給你的？除了手機外，他還有給你其他東西嗎？
+What’s the date he gave you the cellphone? Except cellphone, did he give you any other things?
+grammar and structure	word order errors	The word order in the question is incorrect. It should be 'What's the date he gave you the cellphone?'
+grammar and structure	omission of details	The user's translation omits the word 'date' in the question.
+grammar and structure	omission of details	The user's translation omits the word 'the' before 'cellphone' in the question.
+grammar and structure	word order errors	The word order in the second sentence is incorrect. It should be 'Did he give you any other things except the cellphone?'
+
+He gave me this phone the day before I left Bangkok. In addition to the cell phone, he gave me $400 to cover restaurant bills and meals.
+他在我離開曼谷的前一天給我那支手機 另外他還給我四百美元當做食宿費用
+grammar and structure	word order errors	The word order in the translation is incorrect. The correct word order should be '他在我離開曼谷的前一天給我那支手機'.
+omission or addition	omitting important details	The translation omits the information about the $400 given for restaurant bills and meals.
+
