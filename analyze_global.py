@@ -65,15 +65,18 @@ if __name__ == '__main__':
 
     tab = '\t'
     global_data = _read_global_data(input_file) 
-    with open(output_file, 'w') as file:        
+    with open(output_file, 'w', encoding='utf-8') as file:        
         for trans in global_data:
-            original_text = trans[0][1]
-            translation = trans[1][1]
-            result = chatgpt.analyze_translation(original_text, translation)
-            if result:
-                lines = _get_output_lines(result, original_text, translation)
-                if len(lines):
-                    print(f"{lines}", flush=True)
-                    file.writelines(lines)
-                    file.flush()
+            try:
+                original_text = trans[0][1]
+                translation = trans[1][1]
+                result = chatgpt.analyze_translation(original_text, translation)
+                if result:
+                    lines = _get_output_lines(result, original_text, translation)
+                    if len(lines):
+                        print(f"{lines}", flush=True)
+                        file.writelines(lines)
+                        file.flush()
+            except Exception as ex:
+                print(f"{ex}")
 
