@@ -1,29 +1,39 @@
 今為偷竊案件偵字1425號偵查程序
-grammar and structure	word order errors	The word order in the sentence is incorrect.
+Today, we are here the investigatory procedure of the theft case, case number 1425.
+omission or addition	omission of details	The user omitted the word 'in' before 'the investigatory procedure'.
+grammar and structure	missing or misplaced punctuation	The user did not include a comma after 'Today' and before 'we'.
 
 今為檢察署偵字1425號偷竊案件為通譯，謹當為公正誠實之譯述，謹此此結。
-omission or addition	omitting important details	The user omitted the phrase 'In the case of deliberately making false interpretation, the violation of perjury will apply.'
+I am here today for the theft case, case number 1425 as an interpreter. I promise to faithfully and honestly interpret what is stated in this court. In the case of deliberately making false interpretation, the violation of perjury will apply.
 
 被告姓名
-omission or addition	omitting important details	The user omitted the word 'defendant' in the translation.
+The defendant, your name, please.
+omission or addition	omission of details	The user omitted the phrase 'your name' in the translation.
 
 Paul Anderson
-grammar and structure	subject-verb agreement errors	The verb '是' (to be) should agree with the subject 'Paul Anderson'.
+Paul Anderson是我的名字。
 
 護照號碼
+And your passport number, please.
 
+AC44432189
 AC44432189
 
 通訊地址
-omission or addition	omitting important details	The user omitted the translation of the original text.
+And your mailing address.
+omission or addition	omission of details	The user omitted the translation of '通訊地址' (mailing address).
 
 No. 52, Ho-ping East Road, Section 1, Taipei City
-omission or addition	omitting important details	The user omitted the word 'No.' in the address.
-semantic conversion	incorrect word choice	The user used the word '號' instead of 'Road' to translate 'Road'.
+台北市和平東路一段52號
+omission or addition	omission of details	The user omitted the word 'Section' in the address.
+grammar and structure	missing or misplaced punctuation	The user did not include any punctuation marks in the address.
 
 告知權利義務
-grammar and structure	word order errors	The word order should be 'rights and obligations' instead of 'obligations and rights'.
+You have the following rights and obligations
+omission or addition	omission of details	The user omitted the specific details of the rights and obligations.
 
 1.你有權保持緘默，毋需違背意志做任何陳述。
-grammar and structure	word order errors	The word order in the translation is incorrect.
+First, you have the right to remain silent and do not have to make any statement against your will.
+omission or addition	omission of details	leaving out critical context
+grammar and structure	word order errors	incorrect word order
 
