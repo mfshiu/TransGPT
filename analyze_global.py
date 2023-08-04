@@ -57,7 +57,7 @@ def _get_output_lines(result, original_text, translation):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("Usage: python analyze_global.py input_file output_file stat_file")
+        print("Usage: python analyze_global.py input_file output_file")
         exit()
 
     input_file = sys.argv[1]    # dataset/global-10.tsv
