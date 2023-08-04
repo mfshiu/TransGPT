@@ -1,0 +1,225 @@
+請問檢察官，有沒有進一步要傳喚的證人或是調查事證？
+Prosecutor, is there any evidence you need to investigate or any witness to subpoena?
+grammar and structure	word order errors	The word order in the translation is incorrect.
+
+希望能夠傳訊被告的同事，也就是任職伯元補習班的王彩燕以證人身分到庭，說明他與被告之間的關係，以及那些簡訊的撰寫背景及目的。
+I would like to subpoena Cai Yan Wang, who is still working at the Bo Yuan cram school, as a witness. We want her to explain the reason why she texted those messages, and explain the relationship between she and the defendant.
+omission or addition	omission of details	The user omitted the critical details of the content of the text messages and the background and purpose of their writing.
+grammar and structure	word order errors	The user placed the verb 'subpoena' before the object 'Cai Yan Wang', resulting in incorrect word order.
+grammar and structure	missing or misplaced punctuation	The user did not include a comma after the introductory phrase 'I would like to'.
+
+請問告訴人有沒有任何希望本庭代為調查的事證？
+Plaintiff, is there any evidence you want the court to investing for you?
+omission or addition	omission of details	The user omitted the mention of the plaintiff in their translation.
+grammar and structure	word order errors	The user's word order is incorrect.
+semantic conversion	incorrect word choice	The user used 'investing' instead of 'investigate'.
+
+我聽說該補習班針對他們兩個人的關係，有採取一些行動。其中更有試圖說服該女王彩燕離職一事，不知道能不能向那個補習班求證這件事情。
+ I heard that the cram school has do some action because of their relationship. And there even someone was trying to persuade Cai Yan Wang to leave the cram school. Is it possible to verify the truth?
+omission or addition	omission of details	leaving out critical context
+grammar and structure	word order errors	incorrect word order
+semantic conversion	incorrect word choice	using the wrong verb
+
+那請問被告，有沒有任何希望法庭為你調查的事證？現在的情況是，你的碩士學位早就已經在中華民國101年12月05日結束，實在沒有理由以做作業為藉口來解釋你跟王彩燕的簡訊互動，尤其是你們的簡訊互動大多在晚上九點鐘以後進行，實在起人疑竇，你有沒有任何證據，可以幫助自己的案情呢？
+Defendant, is there any evidence you want to court to investigate for you? The situation is your program was ended on December fifteenth, 2012. There is still no reason for you to keep texting messages with Cai Yan Wang for helping the homework. Especially, most of your messages are after nine o’clock, it is very suspicious. Do you have any evidence to prove your innocence?
+grammar and structure	word order errors	The word order in the sentence 'your program was ended on December fifteenth, 2012' is incorrect. It should be 'your program ended on December fifteenth, 2012'.
+semantic conversion	incorrect word choice	The translation of '希望法庭為你調查的事證' as 'evidence you want the court to investigate for you' is incorrect. It should be 'evidence you hope the court to investigate for you'.
+omission or addition	omission of details	The translation omits the mention of the defendant's master's degree and the date it ended, which is important context for the argument.
+
+I cannot think of any evidence that the court can investigate on my behalf. As I said, the reason for the communication between my colleague and me was very simple. I only wanted to improve my language ability and continue to learn Chinese.
+我現在想不到有任何證據可以提供給法院來證明我的行為。我說過了，我和我同事間的簡訊互動是非常平常。我只是想要繼續學中文，並且增進我的中文能力。
+omission or addition	omission of details	leaving out critical context
+grammar and structure	word order errors	incorrect word order
+semantic conversion	incorrect word choice	using incorrect words
+
+那本庭訂中華民國103年06月09日下午4點30分進行證人詰問程序，請告訴人、被告都要到庭，如果有必要，雙方都可以請辯護人，明白嗎？
+So the next court will be at four o’clock p.m., on July ninth, 2014. The main purpose of the court is to examine the witness’s statements. Plaintiff and defendant please show up on that day. If necessary both of you can have your lawyers. Do you understand?
+grammar and structure	word order errors	incorrect word order in the date and time
+semantic conversion	mismatched meaning	incorrect translation of the date and time
+
+我明白。
+I understand.
+
+I understand.
+我明白
+
+今天庭期到此結束。
+Okay, so the procedure ends here.
+omission or addition	omission of details	leaving out critical context
+
+今為 刑事庭 簡易字2887號 通姦案件之準備程序
+Today we are here for criminal procedure of …adultery case. Case number 2887
+omission or addition	omission of details	The user omitted the specific details of the case, such as the names of the parties involved.
+grammar and structure	word order errors	The user placed the case number at the end of the sentence instead of immediately after 'case'.
+
+通譯宣讀 「通譯結文：今為貴院簡易字2887號 通姦案件之準備程序為通譯，謹當為公正誠實之譯述，此結，通譯○○○，中華民國103年5月27日。」
+I am here today for investigatory case, case number 2887, adultery case as an interpreter. I promise to faithfully and honestly translate what is stated in this court. In the case of deliberately making false interpretation the violation of perjury will apply.
+omission or addition	omission of details	The user omitted the mention of the date in their translation.
+grammar and structure	missing or misplaced punctuation	The user did not include the quotation marks around the phrase '通譯○○○'.
+
+原告/告訴人姓名
+Your name, please.
+omission or addition	omission of details	The user did not provide the name of the plaintiff or complainant.
+
+陳玉華
+Yu-Hua Chen
+
+身分證字號
+Your ID number.
+omission or addition	omission of details	The user omitted the word 'number' in the translation.
+
+H284892843
+H284892843
+
+聯絡地址
+Your mailing address
+omission or addition	omission of details	The user omitted the word 'mailing' in the translation.
+grammar and structure	missing or misplaced punctuation	The user did not include any punctuation marks in the translation.
+
+新北市新店區中正路414號5樓
+5flooe, number 414, Zhongzheng Road, New Taipei City.
+omission or addition	omission of details	The user omitted the mention of the district (Xindian) in the translation.
+grammar and structure	word order errors	The user placed the word '5flooe' before the address, which is incorrect.
+
+被告姓名
+Your name, please.
+omission or addition	omission of details	The user omitted the original text '被告姓名' which means 'defendant's name'.
+
+John Anderston
+約翰-愛德森
+grammar and structure	word order errors	The name 'John Anderson' is translated as '約翰-愛德森' instead of '約翰·安德森'. The hyphen should be replaced with a dot.
+
+護照號碼
+Your passport number.
+
+KB281849281
+KB281849281
+
+居留證號碼
+ARC number, please.
+omission or addition	omission of details	The user omitted the translation of '居留證號碼' which means 'ARC number'.
+
+AD828918482
+AD828981482
+
+聯絡地址
+Your mailing address, please.
+omission or addition	omission of details	The user omitted the word 'mailing' in the translation.
+
+Fl. 7, No. 124, Jin-hua Street, Da-an District, Taipei City
+台北市大安區經華路124號7樓
+omission or addition	omission of details	The user omitted the street name 'Jin-hua Street' in the translation.
+
+告知權利義務
+I am going to inform your rights and obligations.
+omission or addition	omission of details	The user's translation omits the specific content of the rights and obligations that will be informed.
+
+1.你有權保持緘默，毋需違背意志做任何陳述。
+You have the right to remain silent and do not make any statement against your will.
+omission or addition	omission of details	leaving out critical context
+
+2.你有權選任法定辯護人，若為低收入戶、中低收入戶、原住民或其他符合法律規定之資格，得請求法律服務。
+You have the right to a lawyer. If you come from a low-income family, a medium-and-low-income family, or if you are an aborigine or meet other qualification set by the law. You may ask the court for legal assistance.
+omission or addition	omission of details	leaving out critical context
+grammar and structure	missing or misplaced punctuation	missing punctuation
+
+3.你有權請法院調查任何對你有利的證據。
+If have the right to ask the court to investigate any evidence which may help you with your case.
+omission or addition	omission of details	The user omitted the word 'you' in the translation, which changes the meaning of the sentence.
+grammar and structure	word order errors	The user placed the word 'which' before 'may help you with your case', which disrupts the correct word order.
+
+被告是否了解以上權利？
+Do you fully understand your tights?
+omission or addition	omission of details	The user omitted the word 'above' in the translation.
+grammar and structure	word order errors	The user placed the word 'fully' in the wrong position in the sentence.
+
+I understand.
+我了解了
+
+今天我們進行外遇案件之準備程序。告訴人陳玉華提起這次的訴訟案件，主要是因為她的先生John Anderston跟所任職之補習班同事從往過密，且告訴人在其先生的手機簡訊記錄中查到一些親密訊息，再加上被告常常會藉故加班，或是深夜與其同事王彩燕進行視訊或其他方式之交談，因告訴人所蒐集之通訊內容已超過同事情誼，故提起此告訴。被告，你太太懷疑你有外遇，要告你通姦罪，你作何辯解？
+Today we are going to discuss the adultery case. The plaintiff filed this case. The reason is that the plaintiff’s husband had the intimate messages with colleague in the cram school. The plaintiff found some intimate massages in her husband’s phone. Moreover, her husband often made up reasons for additional working in the cram school, and sometimes in the in the night………The plaintiff found the content in the messages and the behavior between them is beyond co-worker’s relationship. Defendant, your wife doubts that you have adultery, what’s your plea?
+omission or addition	omission of details	The user omitted the specific names of the plaintiff and defendant.
+grammar and structure	word order errors	The user placed the phrase 'in the cram school' in the wrong position in the sentence.
+omission or addition	leaving out critical context	The user did not include the information about the defendant's response to the accusation.
+
+Not guilty, of course.
+我無罪答辯阿當然
+grammar and structure	word order errors	The word order in the translation is incorrect.
+
+在今天的準備程序中，主要程序為詢問被告與其同事之通訊細節，目的是為了釐清是否被告與其同事實有外遇情事，足以構成通姦罪。雙方明白程序嗎？
+In today’s preparing procedure, the main course is to ask the defendant and his colleague about the intimate messages. The aim is to find out if they constitute the adultery. Do both party understand the procedure?
+omission or addition	omission of details	leaving out critical context
+
+我明白
+Yes, I understand.
+
+I understand.
+我明白
+
+先請問告訴人，你跟妳先生結婚多久了？有小孩嗎？
+Plaintiff, how long is your marriage?
+grammar and structure	word order errors	The word order of the question is incorrect.
+
+我跟我先生已經結婚四年了，我們沒有小孩。
+Our marriage last four years, we don’t have child.
+omission or addition	omission of details	The user omitted the word 'been' in the sentence 'Our marriage has been last four years'.
+grammar and structure	subject-verb agreement errors	The user used the incorrect verb form 'last' instead of 'has lasted' in the sentence 'Our marriage last four years'.
+grammar and structure	missing or misplaced punctuation	The user did not include a period at the end of the sentence.
+grammar and structure	agreement errors in number or gender	The user used the singular form 'child' instead of the plural form 'children' in the sentence 'We don’t have child'.
+
+那你跟妳先生是在台灣結婚的嗎？還是在國外結婚的？
+Did you marry in Taiwan? Or abroad?
+grammar and structure	word order errors	The word order in the question is incorrect.
+
+我跟我先生是在台灣認識的，四年前他剛來台灣，主要想要教葡萄牙文。
+I acquainted with my husband in Taiwan. Four years ago, he came to Taiwan to teach Portuguese.
+omission or addition	omission of details	The user omitted the information that the speaker is also from Taiwan.
+grammar and structure	word order errors	The user placed the verb 'acquainted' before the subject 'I', which is incorrect.
+semantic conversion	incorrect word choice	The user used 'acquainted' instead of 'met', which is not the appropriate word choice.
+
+那過去幾年，他在台灣的工作都是教葡萄牙文嗎？
+So I the past years, your husband’s job is teaching Portuguese?
+grammar and structure	subject-verb agreement errors	The verb 'is' should be 'was' to match the past tense of the original text.
+
+我們剛開始認識的時候，他是一位葡萄牙文老師，在我們結婚之後，他還有繼續教葡萄牙文，可是葡萄牙文在台灣並不是一個有很多人學的語言，所以他的授課時數一直很不穩定，有時候甚至一兩個月的課程都會是空窗期，後來因為希望能夠讓收入比較穩定，他想要開始教英文，可是因為他的母語並不是英文，所以他決定要去進修。
+When we know each other at the very first time, he is a teacher who teaching Portuguese. After we married, he still teach Portuguese. However, Portuguese is not a very popular language in Taiwan, so his teaching hour is not very regular. Sometimes, there….will….are 1or2 months between jobs. to make the income more regularly, he changes to teach English. However, his mother tongue is not English, so he seeks an advanced degree.
+grammar and structure	word order errors	Incorrect word order in the sentence 'When we know each other at the very first time' should be 'When we first got to know each other'.
+grammar and structure	subject-verb agreement errors	Subject-verb agreement error in the sentence 'After we married, he still teach Portuguese' should be 'After we got married, he still teaches Portuguese'.
+grammar and structure	tense errors	Tense error in the sentence 'Sometimes, there will are 1 or 2 months between jobs' should be 'Sometimes, there will be 1 or 2 months between jobs'.
+omission or addition	omission of details	Omission of the word 'jobs' in the sentence 'Sometimes, there will be 1 or 2 months between jobs'.
+omission or addition	incorporating superfluous words or phrases	Incorporating the word 'to' in the sentence 'to make the income more regularly' is unnecessary.
+grammar and structure	missing or misplaced punctuation	Missing comma after the word 'regularly' in the sentence 'to make the income more regularly he changes to teach English'.
+omission or addition	inserting content not present in the original text	Inserting the phrase 'he seeks an advanced degree' is not present in the original text.
+
+你剛剛講到他決定要進修，是在台灣念一個學位嗎？
+As you said, he want to seek a advanced degree. Is it mean he want to get the degree in Taiwan?
+semantic conversion	mismatched meaning	The user incorrectly translated '進修' as 'seek a advanced degree' instead of 'further studies'.
+
+不是，因為他希望能夠在台灣教英文，所以必須取得的學位是關於英語教學的。他在網路上找到了一個美國加州所提供的遠距教學課程，讓他可以不用人去美國，都可以用函授的方式，完成課程的要求，這樣子在完成所有的學分之後，就可以取得碩士學位。他的計畫是，透過這樣子的一個美國學位，能夠在台灣找到英文教師的工作。
+No, because he want to teach in Taiwan, he wants to get the English teaching degree. And he found a distance learning program on the internet which is from the California. This program enable him to not to go to the America and still can get the learning program from distance learning. And after he…complete this program, he can get the degree. His plan is after he get the degree from the program, he can teach English in Taiwan.
+grammar and structure	word order errors	incorrect word order in multiple sentences
+omission or addition	omission of details	omitted critical details in multiple sentences
+omission or addition	leaving out critical context	left out important context in multiple sentences
+omission or addition	skipping entire sentences or paragraphs	skipped entire sentences in the translation
+omission or addition	inserting content not present in the original text	added unnecessary information in the translation
+grammar and structure	missing or misplaced punctuation	missing punctuation marks in the translation
+grammar and structure	article and determiner errors	incorrect use of articles in the translation
+semantic conversion	incorrect word choice	used incorrect words in the translation
+semantic conversion	neglecting to translate essential terms or phrases	failed to translate essential terms in the translation
+semantic conversion	failing to adapt idiomatic expressions to the target language	did not adapt idiomatic expressions in the translation
+cultural transformation	misinterpreting cultural references or symbols	misinterpreted cultural references in the translation
+
+那他跟這次所謂的外遇對象，是什麼樣的關係呢？
+So what’s the relationship between the person he has the affair with
+omission or addition	omission of details	leaving out critical context
+
+他們是補習班的同事。那個補習班有安排所謂的中師跟外師搭檔教學。那個女的就是他班上的中師。
+They are colleague in cram school. The cram school schedule a program which combine the Chinese teacher and foreigner teacher. And the woman is the Chinese teacher who partner with him.
+grammar and structure	word order errors	Incorrect word order in the sentence.
+
+你怎麼會知道他們有外遇呢？
+How did know they are in the adultery?
+omission or addition	omission of details	The user omitted the word 'how' in the translation.
+grammar and structure	word order errors	The user placed the verb 'know' before the subject 'they' instead of after.
+semantic conversion	incorrect word choice	The user used the word 'adultery' instead of 'having an affair'.
+
