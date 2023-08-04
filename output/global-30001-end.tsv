@@ -223,3 +223,17 @@ omission or addition	omission of details	The user omitted the word 'how' in the 
 grammar and structure	word order errors	The user placed the verb 'know' before the subject 'they' instead of after.
 semantic conversion	incorrect word choice	The user used the word 'adultery' instead of 'having an affair'.
 
+在手機中你看到什麼不尋常的嗎？
+So what did you find in his telephone?
+omission or addition	omission of details	The user omitted the specific information about what was found in the telephone.
+
+他的通訊紀錄中常常看到同一個電話號碼，所以我很好奇的又去查他的簡訊，查了之後才發現他跟一個女的幾乎每天都通簡訊。
+In his phone book, it appears a same number many times. So I am very curious about that, so I check his phone book. After I check her telephone. He sent the messages every day.
+omission or addition	omission of details	The user omitted the specific details about the person the subject is communicating with.
+grammar and structure	word order errors	The user's sentence structure is incorrect, resulting in a confusing and unclear translation.
+
+就算是發簡訊，也還好吧？難道內容很不宜嗎？
+Even if he sent the messages every day. It’s normal, or if there any……………
+omission or addition	omission of details	leaving out critical context
+grammar and structure	missing or misplaced punctuation	missing punctuation at the end of the sentence
+
