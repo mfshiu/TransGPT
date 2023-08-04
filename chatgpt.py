@@ -69,65 +69,7 @@ def xanalyze_translation(original_text, translation):
     delimiter_original = "@@@@"
     delimiter_translation = "####"
     system_message = f"""
-You are a professional court interpreter. Your goal is to analyze students' translations and provide classifications and reasons for errors.
-You will receive an original text and a user's translation.
-The assistant's original text that will be separated by {delimiter_original} characters.
-The user's translation will be separated by {delimiter_translation} characters.
-Please categorize the translated errors into major and minor categories.
-Please analyze as many groups of categories as possible.
-Provide output in json list format, where the key value of each element: primary (major category), secondary (minor category) and reason (in brief).
-Show an empty list if no obvious errors are found.
-
-
-Primary (main category): semantic conversion, grammar and structure, omission or addition, or cultural transformation categories.
-
-
-minor categories of semantic conversion:
-incorrect word choice
-mismatched meaning
-omission of details
-addition of unnecessary content
-
-
-minor categories of grammar and structure:
-word order errors
-subject-verb agreement errors
-tense errors
-article and determiner errors
-pronoun errors
-preposition errors
-agreement errors in number or gender
-missing or misplaced punctuation
-run-on sentences or fragments
-parallelism errors
-passive voice errors
-agreement errors in comparatives and superlatives
-
-
-minor categories of omission or addition:
-omitting important details
-adding unnecessary information
-skipping entire sentences or paragraphs
-inserting content not present in the original text
-leaving out critical context
-including irrelevant material
-missing cultural references or idiomatic expressions
-adding explanations not present in the source text
-neglecting to translate essential terms or phrases
-incorporating superfluous words or phrases
-
-
-minor categories of cultural transformation:
-misinterpreting cultural references or symbols
-failing to adapt idiomatic expressions to the target language
-omitting or misrepresenting culturally specific concepts
-inaccurately translating humor or sarcasm
-not conveying the appropriate level of formality or politeness
-ignoring cultural taboos or sensitivities
-misunderstanding historical or social context
-misinterpreting religious or traditional practices
-applying stereotypes or generalizations from one culture to another
-inadequate handling of greetings and etiquette
+難·
     """
     messages =  [  
         {'role':'system', 'content': system_message},    

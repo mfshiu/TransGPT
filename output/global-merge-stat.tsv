@@ -1,0 +1,52 @@
+omission or addition	omitting important details	6290
+omission or addition	missing cultural references or idiomatic expressions	35
+omission or addition	missing or misplaced punctuation	20
+omission or addition	leaving out critical context	125
+omission or addition	adding unnecessary information	171
+omission or addition	neglecting to translate essential terms or phrases	27
+omission or addition	incorporating superfluous words or phrases	11
+omission or addition	skipping entire sentences or paragraphs	2
+omission or addition	omission of details	19
+omission or addition	including irrelevant material	2
+omission or addition	inserting content not present in the original text	5
+omission or addition	word order errors	1
+omission or addition	omitting or misrepresenting culturally specific concepts	1
+grammar and structure	word order errors	6250
+grammar and structure	subject-verb agreement errors	940
+grammar and structure	tense errors	301
+grammar and structure	pronoun errors	80
+grammar and structure	omission of details	24
+grammar and structure	preposition errors	43
+grammar and structure	missing or misplaced punctuation	71
+grammar and structure	article and determiner errors	33
+grammar and structure	agreement errors in number or gender	12
+grammar and structure	repetition	1
+semantic conversion	incorrect word choice	894
+semantic conversion	omission of details	473
+semantic conversion	mismatched meaning	3557
+semantic conversion	word order errors	33
+semantic conversion	inappropriate cultural transformation	366
+semantic conversion	word choice errors	14
+semantic conversion	addition of unnecessary content	91
+semantic conversion	word choice	2
+semantic conversion	subject-verb agreement errors	1
+cultural transformation	omitting or misrepresenting culturally specific concepts	8
+cultural transformation	misinterpreting cultural references or symbols	118
+cultural transformation	failing to adapt idiomatic expressions to the target language	122
+cultural transformation	not conveying the appropriate level of formality or politeness	33
+cultural transformation	ignoring cultural taboos or sensitivities	14
+cultural transformation	inadequate handling of greetings and etiquette	2
+cultural transformation	inaccurately translating humor or sarcasm	1
+cultural transformation	misunderstanding historical or social context	1
+cultural transformation	misinterpreting religious or traditional practices	1
+inappropriate cultural transformation	not conveying the appropriate level of formality or politeness	16
+inappropriate cultural transformation	ignoring cultural taboos or sensitivities	1
+inappropriate cultural transformation	failing to adapt idiomatic expressions to the target language	3
+inappropriate cultural transformation	misinterpreting cultural references or symbols	4
+inappropriate cultural transformation	neglecting to translate essential terms or phrases	1
+minor categories of cultural transformation	failing to adapt idiomatic expressions to the target language	4
+minor categories of cultural transformation	misinterpreting cultural references or symbols	4
+minor categories of grammar and structure	word order errors	2
+minor categories of semantic conversion	mismatched meaning	1
+minor categories of semantic conversion	inappropriate cultural transformation	7
+minor categories of omission or addition	leaving out critical context	1
